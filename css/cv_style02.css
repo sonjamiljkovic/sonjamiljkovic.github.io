@@ -1,0 +1,137 @@
+@font-face {
+font-family:"Geomanist Regular";
+src: url(./Geomanist-Regular.otf);
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+color:#ffffff;
+font-family: 'Lato', sans-serif;
+}
+.mainContent {
+	background-color: #0294a5;
+	text-align: center;
+	font-family:"Geomanist Regular";
+}
+.mainContent h2 {
+	font-family: 'Lato', sans-serif;
+}
+.byDay {
+	background-color: #a79c93;
+	padding: 1%;
+}
+.byNight {
+	background-color: #03353e;
+	padding: 1%;
+	font-family: 'Lato', sans-serif;
+}
+.jumbotron {
+	background-color: #0294a5;
+	padding-bottom: 0;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #c1403d;
+  color:#fff;
+  font-size: 16px;
+  text-align: center;
+  right: 0;
+  left: 0;
+  line-height: 50px;
+}
+ul {
+  list-style: none;
+  display: inline-flex;
+}
+#social a{
+  color:#fff;
+}
+#social a:hover {
+  color:#0294a5;
+}
+#social i {
+  background-color: #03353e;
+  border-radius: 50%;
+  font-size:18px;
+  color: #fff;
+  padding: 5px;
+}
+#social i:hover{
+background-color: #0294a5;
+}
+#social li{
+  margin: 0 8px;
+}
+#social .title {
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+.storyContent {
+	border-style:solid;
+
+}
+.storyContent h4 {
+	 color:#000;
+}
+.storyContent p {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color:#000;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+
+}
+@media screen and (max-width: 776px) {
+ 	#social .title {
+ 		display: none;
+}
+
+}
