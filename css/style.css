@@ -1,0 +1,50 @@
+html {
+  background: url(images/maze.jpg) center no-repeat;
+  background-size: cover;
+}
+
+body, html{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: sans-serif;
+}
+
+.keys {
+display: flex;
+flex: 1;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+
+.key{
+  border-style: solid;
+  border-width: 0.4rem;
+  border-color: black;
+  padding: 1rem 0.5rem;
+  margin: 1rem;
+  text-align: center;
+  width: 10rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.07s ease;
+
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+  color: yellow;
+}
+
+.sound {
+display: block;
+}
+
+kbd {
+  text-transform: capitalize;
+  display: block;
+  font-size: 4rem;
+}
